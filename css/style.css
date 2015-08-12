@@ -3,8 +3,14 @@
 
 h1 {
   color: pink;
-  font-family: 'Slabo 27px', serif;
+font-family: 'Bubblegum Sans', cursive;
   font-size: 300%;
   text-align: center;
+}
+
+h3 {
+  color: pink;
+  text-align: center;
+  font-family: 'Bubblegum Sans', cursive;
 }
 
