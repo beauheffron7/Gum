@@ -1,16 +1,34 @@
 @import url(http://fonts.googleapis.com/css?family=Bubblegum+Sans);
 @import url(http://fonts.googleapis.com/css?family=Slabo+27px);
 
+body {
+    background-image: url("http://www.munciehighstreet.com/wp-content/uploads/2014/05/website-background-wincustomize-explore-clouds-284048.jpg");
+}
+
+* {
+  text-align: center;
+}
+
 h1 {
-  color: pink;
-font-family: 'Bubblegum Sans', cursive;
-  font-size: 300%;
+  color: crimson;
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 500%;
   text-align: center;
 }
 
 h3 {
-  color: pink;
+  color: crimson;
   text-align: center;
   font-family: 'Bubblegum Sans', cursive;
+  font-size: 200%;
 }
 
+p {
+  font-family: 'Bubblegum Sans', cursive;
+  text-align: center;
+  
+}
+
+button {
+  text-align: right;
+}
