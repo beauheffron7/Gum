@@ -3,6 +3,7 @@
 
 body {
     background-image: url("http://www.munciehighstreet.com/wp-content/uploads/2014/05/website-background-wincustomize-explore-clouds-284048.jpg");
+    background-size:100%;
 }
 
 * {
@@ -77,3 +78,27 @@ p {
     inset 0 0 60px rgba(purple, .85);
     transition: all 40ms ease;
   }
+.button2
+{
+	background-color: #E74C3C;
+	border-bottom: 5px solid #BD3E31;
+	text-shadow: 0px -2px #BD3E31;
+}
+.button2:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+.button2
+{
+	position: relative;
+	padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;	
+}
