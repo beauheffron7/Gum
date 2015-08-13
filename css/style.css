@@ -32,3 +32,54 @@ p {
 button {
   text-align: right;
 }
+#button {
+  display: inline-block;
+  padding: .5em 1.5em;
+  background-color: skyblue;
+  background: linear-gradient(Moccasin, lightblue);
+  background-size: 125% 125%;
+  background-position: center;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  font-weight: 100;
+  color: #333;
+  text-decoration: none;
+  box-shadow: 1px 1px #333,
+    2px 2px #333,
+    3px 3px #333,
+    4px 4px #333,
+    5px 5px #333,
+    6px 6px #333,
+    7px 7px #333,
+    8px 8px #333,
+    9px 9px #333,
+    10px 10px #333,
+    10px 10px 5px #000,
+    10px 10px 20px #000,
+    inset 0 0 40px rgba(purple, .5);
+  border-radius: 10px;
+  transition: all 200ms ease;}
+  #button:hover {
+    color: pink;
+  }
+
+  #button:active {
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 0 0 #333,
+    0 0 #333,
+    0 0 #333,
+    0 0 #333,
+    0 0 #333,
+    0 0 #333,
+    0 0 #333,
+    0 0 #333,
+    0 0 #333,
+    0 0 #333,
+    0 0 1px rgba(#000,.25),
+    0 0 5px rgba(#000,.25),
+    inset 0 0 60px rgba(purple, .85);
+    transition: all 40ms ease;
+  }
+  
+
