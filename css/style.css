@@ -29,9 +29,12 @@ p {
   
 }
 
+<<<<<<< HEAD
 button {
   text-align: right;
 }
+=======
+>>>>>>> ea0f1b657fb5cfcbdbe6247f32d1d085d66d445c
 #button {
   display: inline-block;
   padding: .5em 1.5em;
@@ -81,4 +84,9 @@ button {
     inset 0 0 60px rgba(purple, .85);
     transition: all 40ms ease;
   }
+<<<<<<< HEAD
   
+=======
+  
+
+>>>>>>> ea0f1b657fb5cfcbdbe6247f32d1d085d66d445c
