@@ -29,9 +29,6 @@ p {
   
 }
 
-button {
-  text-align: right;
-}
 #button {
   display: inline-block;
   padding: .5em 1.5em;
